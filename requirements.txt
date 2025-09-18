@@ -1,0 +1,19 @@
+# Lecture Whisperer - Python Dependencies
+# Core LiveKit components for AI agent
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-silero
+livekit-plugins-google
+livekit-plugins-noise-cancellation
+
+# AI and Memory
+mem0ai
+openai
+
+# Web search and utilities
+duckduckgo-search
+langchain_community
+requests
+python-dotenv
+
+# Removed: pydantic-ai-slim[openai,mcp] - not needed for Lecture Whisperer
