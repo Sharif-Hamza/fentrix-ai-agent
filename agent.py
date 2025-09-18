@@ -10,7 +10,7 @@ from livekit.plugins import google
 from prompts import AGENT_INSTRUCTION, SESSION_INSTRUCTION
 from tools import get_weather, search_web, send_email
 from mem0 import AsyncMemoryClient
-# MCP imports removed - focusing on core LiveKit functionality
+# Removed MCP imports - focusing on core LiveKit functionality for production
 import os
 import json
 import logging

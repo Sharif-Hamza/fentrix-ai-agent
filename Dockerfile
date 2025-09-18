@@ -17,7 +17,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY agent.py .
 COPY prompts.py .
 COPY tools.py .
-COPY mcp_client/ ./mcp_client/
 
 # Expose port for health checks
 EXPOSE 8080
