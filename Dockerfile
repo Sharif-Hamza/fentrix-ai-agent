@@ -17,12 +17,5 @@ COPY agent.py .
 COPY prompts.py .
 COPY tools.py .
 
-# Expose port for health checks (LiveKit agents use different ports)
-EXPOSE 7860
-
-# Health check - simplified for LiveKit agents
-HEALTHCHECK --interval=60s --timeout=30s --start-period=30s --retries=3 \
-  CMD curl -f http://localhost:7860/ || exit 1
-
 # Start the AI agent in production mode
 CMD ["python", "agent.py", "start"]
